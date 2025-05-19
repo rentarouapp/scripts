@@ -14,3 +14,11 @@ echo 'export PATH="$HOME/scripts:$PATH"' >> ~/.zshrc
 ```
 sudo ln -s ~/scripts/${scripts_name} /usr/local/bin/${scripts_name}
 ```
+### 3 Use Scripts
+#### e.g. git-copy-branch
+If you type the following command:
+```
+cd ${your_project}
+git-copy-branch
+```
+This will copy the git current branch name to your clipboard.
