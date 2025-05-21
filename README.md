@@ -19,6 +19,6 @@ sudo ln -s ~/scripts/${scripts_name} /usr/local/bin/${scripts_name}
 If you type the following command:
 ```
 cd ${your_project}
-git-copy-branch
+git copy-branch
 ```
 This will copy the git current branch name to your clipboard.
